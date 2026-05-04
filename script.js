@@ -5,10 +5,9 @@ function saveTasks() {
 }
 
 function renderTasks() {
-   
+
     const list = document.getElementById("taskList");
     list.innerHTML = "";
-
     tasks.forEach((task, index) => {
         const li = document.createElement("li");
         if (task.completed) li.classList.add("completed");
@@ -28,9 +27,9 @@ function addTask() {
     const input = document.getElementById("taskInput");
     const text = input.value.trim();
 
-    if (text === "")  {
+    if (text === "") {
         alert("enter some text");
-}
+    }
 
     tasks.push({ text: text, completed: false });
     input.value = "";

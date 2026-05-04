@@ -1,85 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(rgb(121, 4, 4),rgb(224, 100, 224),rgb(3, 3, 151));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200vh;
-  }
-  
-  .container {
-    background: linear-gradient(rgb(0, 183, 255),white);
-    padding: 100px;
-    border-radius: 40px;
-    width: 400px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  }
-  
-  h2 {
-    margin-bottom: 5px;
-    padding: 1px;
-    text-align: center;
-    font-size: 50px;
-    font-family: courier monospace;
-    font-style: italic;
-    font-weight: 400px;
-    
-  
-  }
-   
-  img {
-    width: 400px;
-  }
-  p {
-    color: gray;
-    font-size: 14px;
-  }
-  
-  .task-input {
-    display: flex;
-    margin: 15px 0;
-  }
-  
-  .task-input input {
-    flex: 1;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .task-input button {
-    margin-left: 10px;
-    padding: 10px;
-    border: none;
-    background: #4e6cff;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    background: #f7f7f7;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  li.completed span {
-    text-decoration: line-through;
-    color: gray;
-  }
-  
-  .actions button {
-    margin-left: 5px;
-    border: none;
-    background: none;
-    cursor: pointer;
-  }
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgb(121, 4, 4), rgb(224, 100, 224), rgb(3, 3, 151));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+
+.container {
+  background: linear-gradient(rgb(87, 77, 221),rgb(57, 156, 7));
+  padding: 10%;
+  border-radius: 10%;
+  width: 50%;
+  box-shadow: 0 10px 25px rgba(36, 33, 33, 0.1);
+}
+
+h2 {
+  margin-bottom: 5px;
+  padding: 1px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Playfair Display";
+  font-style: initial;
+  font-weight: 400px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+}
+
+.task-input {
+  display: flex;
+  margin: 15px 0;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.task-input button {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  background: #4e6cff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f7f7f7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions button {
+  margin-left: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
