@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: rgb(153, 50, 76);
+    background: linear-gradient(rgb(121, 4, 4),rgb(224, 100, 224),rgb(3, 3, 151));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,15 +8,23 @@ body {
   }
   
   .container {
-    background: rgb(148, 223, 233);
-    padding: 50px;
-    border-radius: 30px;
+    background: linear-gradient(rgb(0, 183, 255),white);
+    padding: 100px;
+    border-radius: 40px;
     width: 400px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   }
   
   h2 {
     margin-bottom: 5px;
+    padding: 1px;
+    text-align: center;
+    font-size: 50px;
+    font-family: courier monospace;
+    font-style: italic;
+    font-weight: 400px;
+    
+  
   }
    
   img {
